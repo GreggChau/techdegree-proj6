@@ -1,0 +1,45 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito";
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 0.1px;
+}
+
+video {
+  width: 100%;
+}
+
+p {
+  display: inline;
+}
+
+.transcript {
+  width: 80%;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 1.25em;
+}
+
+.script {
+  display: block;
+  margin-top: 30px;
+}
+
+
+@media (min-width: 768px) {
+  .wrapper {
+    width: 70%;
+  }
+  .transcript {
+    width: 100%;
+  }
+}
